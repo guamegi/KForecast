@@ -42,11 +42,11 @@
                                     <constraint firstItem="xYG-uw-7VC" firstAttribute="leading" secondItem="Gqg-KU-nyz" secondAttribute="leading" id="tv3-p1-k83"/>
                                 </constraints>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k2n-04-vNm">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="k2n-04-vNm">
                                 <rect key="frame" x="0.0" y="104" width="414" height="758"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="180" id="8XN-vh-bsA">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SummaryTableViewCell" rowHeight="180" id="8XN-vh-bsA" customClass="SummaryTableViewCell" customModule="KForecast" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8XN-vh-bsA" id="Oo0-MP-Fwc">
@@ -95,15 +95,21 @@
                                                 <constraint firstItem="DaQ-FZ-rTD" firstAttribute="leading" secondItem="4EW-Ba-Qtx" secondAttribute="leading" id="vVV-Gq-qZy"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="currentTemperatureLabel" destination="4Zx-6a-BqJ" id="mjx-8B-ZOA"/>
+                                            <outlet property="minMaxLabel" destination="DaQ-FZ-rTD" id="lt4-c8-DyL"/>
+                                            <outlet property="statusLabel" destination="zTY-nO-rJq" id="KPr-3O-Rar"/>
+                                            <outlet property="weatherImageView" destination="4EW-Ba-Qtx" id="v5t-Gh-P6Y"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="80" id="87C-DF-FLa">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ForecastTableViewCell" rowHeight="80" id="87C-DF-FLa" customClass="ForecastTableViewCell" customModule="KForecast" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="208" width="414" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="87C-DF-FLa" id="a2D-vX-ocw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-3p-9Cb">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-3p-9Cb">
                                                     <rect key="frame" x="346.5" y="21" width="47.5" height="38"/>
                                                     <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
                                                     <nil key="textColor"/>
@@ -151,6 +157,13 @@
                                                 <constraint firstItem="wlV-IX-tEa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="C0V-u9-bV8" secondAttribute="trailing" constant="10" id="ylP-Je-5Wl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="C0V-u9-bV8" id="Fkg-5H-O4N"/>
+                                            <outlet property="statusLabel" destination="e7t-cb-qA7" id="Szu-7q-tWp"/>
+                                            <outlet property="temperatureLabel" destination="6AR-3p-9Cb" id="DCK-fA-sso"/>
+                                            <outlet property="timeLabel" destination="PqT-eu-MJ2" id="vnS-AM-QBw"/>
+                                            <outlet property="weatherImageView" destination="wlV-IX-tEa" id="aEC-0b-Tmg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

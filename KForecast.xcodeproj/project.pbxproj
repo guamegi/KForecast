@@ -14,6 +14,8 @@
 		A6145FE323954F21002F04A7 /* KForecast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A6145FE123954F21002F04A7 /* KForecast.xcdatamodeld */; };
 		A6145FE523954F23002F04A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6145FE423954F23002F04A7 /* Assets.xcassets */; };
 		A6145FE823954F23002F04A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6145FE623954F23002F04A7 /* LaunchScreen.storyboard */; };
+		A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */; };
+		A6145FF323956A60002F04A7 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A6145FE423954F23002F04A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6145FE723954F23002F04A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6145FE923954F23002F04A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
+		A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		A6145FD723954F20002F04A7 /* KForecast */ = {
 			isa = PBXGroup;
 			children = (
+				A6145FEF23956A20002F04A7 /* Cell */,
 				A6145FD823954F21002F04A7 /* AppDelegate.swift */,
 				A6145FDA23954F21002F04A7 /* SceneDelegate.swift */,
 				A6145FDC23954F21002F04A7 /* ViewController.swift */,
@@ -68,6 +73,15 @@
 				A6145FE123954F21002F04A7 /* KForecast.xcdatamodeld */,
 			);
 			path = KForecast;
+			sourceTree = "<group>";
+		};
+		A6145FEF23956A20002F04A7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */,
+				A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6145FF323956A60002F04A7 /* ForecastTableViewCell.swift in Sources */,
 				A6145FE323954F21002F04A7 /* KForecast.xcdatamodeld in Sources */,
 				A6145FDD23954F21002F04A7 /* ViewController.swift in Sources */,
 				A6145FD923954F21002F04A7 /* AppDelegate.swift in Sources */,
+				A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */,
 				A6145FDB23954F21002F04A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
