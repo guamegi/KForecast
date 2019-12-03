@@ -16,6 +16,7 @@
 		A6145FE823954F23002F04A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6145FE623954F23002F04A7 /* LaunchScreen.storyboard */; };
 		A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */; };
 		A6145FF323956A60002F04A7 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */; };
+		A6145FF52395D28D002F04A7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF42395D28D002F04A7 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A6145FE923954F23002F04A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
 		A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
+		A6145FF42395D28D002F04A7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				A6145FE623954F23002F04A7 /* LaunchScreen.storyboard */,
 				A6145FE923954F23002F04A7 /* Info.plist */,
 				A6145FE123954F21002F04A7 /* KForecast.xcdatamodeld */,
+				A6145FF42395D28D002F04A7 /* Common.swift */,
 			);
 			path = KForecast;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				A6145FD923954F21002F04A7 /* AppDelegate.swift in Sources */,
 				A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */,
 				A6145FDB23954F21002F04A7 /* SceneDelegate.swift in Sources */,
+				A6145FF52395D28D002F04A7 /* Common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
