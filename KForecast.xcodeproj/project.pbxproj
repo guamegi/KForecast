@@ -20,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A608B7F523AA7B3B005DE7E6 /* summaryapi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = summaryapi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A6145FD523954F20002F04A7 /* KForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6145FD823954F21002F04A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6145FDA23954F21002F04A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryTableViewCell.swift; sourceTree = "<group>"; };
 		A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		A6145FF42395D28D002F04A7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A65DB59B23ABBD600015808A /* forecastapi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = forecastapi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A608B7F423AA7B19005DE7E6 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				A608B7F523AA7B3B005DE7E6 /* summaryapi.playground */,
+				A65DB59B23ABBD600015808A /* forecastapi.playground */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		A6145FCC23954F20002F04A7 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +75,7 @@
 		A6145FD723954F20002F04A7 /* KForecast */ = {
 			isa = PBXGroup;
 			children = (
+				A608B7F423AA7B19005DE7E6 /* Prototype */,
 				A6145FEF23956A20002F04A7 /* Cell */,
 				A6145FD823954F21002F04A7 /* AppDelegate.swift */,
 				A6145FDA23954F21002F04A7 /* SceneDelegate.swift */,
