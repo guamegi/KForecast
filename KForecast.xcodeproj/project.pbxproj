@@ -17,6 +17,7 @@
 		A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF023956A4B002F04A7 /* SummaryTableViewCell.swift */; };
 		A6145FF323956A60002F04A7 /* ForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */; };
 		A6145FF52395D28D002F04A7 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6145FF42395D28D002F04A7 /* Common.swift */; };
+		A6C4CF4023B10FF00006CF35 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C4CF3F23B10FF00006CF35 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		A6145FF42395D28D002F04A7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A65DB59B23ABBD600015808A /* forecastapi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = forecastapi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A6C4CF3F23B10FF00006CF35 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				A6145FE923954F23002F04A7 /* Info.plist */,
 				A6145FE123954F21002F04A7 /* KForecast.xcdatamodeld */,
 				A6145FF42395D28D002F04A7 /* Common.swift */,
+				A6C4CF3F23B10FF00006CF35 /* Model.swift */,
 			);
 			path = KForecast;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				A6145FF123956A4B002F04A7 /* SummaryTableViewCell.swift in Sources */,
 				A6145FDB23954F21002F04A7 /* SceneDelegate.swift in Sources */,
 				A6145FF52395D28D002F04A7 /* Common.swift in Sources */,
+				A6C4CF4023B10FF00006CF35 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
