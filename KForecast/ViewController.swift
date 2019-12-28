@@ -28,7 +28,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        listTableView.backgroundColor = UIColor.clear
+        listTableView.showsVerticalScrollIndicator = false
         
         WeatherDataSource.shared.fetchSummary(lat: 37.3475, lon: 127.15971) {
             [weak self] in
