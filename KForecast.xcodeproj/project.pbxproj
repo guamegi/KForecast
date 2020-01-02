@@ -35,6 +35,7 @@
 		A6145FF223956A60002F04A7 /* ForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastTableViewCell.swift; sourceTree = "<group>"; };
 		A6145FF42395D28D002F04A7 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A65DB59B23ABBD600015808A /* forecastapi.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = forecastapi.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A6C0FE1323BDB485005B275B /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		A6C4CF3F23B10FF00006CF35 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +90,7 @@
 				A6145FE123954F21002F04A7 /* KForecast.xcdatamodeld */,
 				A6145FF42395D28D002F04A7 /* Common.swift */,
 				A6C4CF3F23B10FF00006CF35 /* Model.swift */,
+				A6C0FE1323BDB485005B275B /* Location.gpx */,
 			);
 			path = KForecast;
 			sourceTree = "<group>";
